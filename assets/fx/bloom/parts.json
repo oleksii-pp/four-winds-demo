@@ -1,0 +1,86 @@
+{
+ "scale": "2x art (fx.js 1x sizes: petal_a len 186, petal_b len 212, centre r80, glow r280)",
+ "parts": {
+  "bloom_centre_r80.png": {
+   "size": [
+    757,
+    747
+   ],
+   "pivot": [
+    378.5,
+    373.5
+   ],
+   "note": "superseded: gold disc r80 at 1x, stamens to r189 (sunflower look)"
+  },
+  "bloom_centre_t1scale.png": {
+   "size": [
+    320,
+    316
+   ],
+   "pivot": [
+    160.0,
+    158.0
+   ],
+   "note": "superseded: stamen tips at r80 (1x), disc ~r34; kept for reference"
+  },
+  "bloom_centre.png": {
+   "size": [
+    473,
+    467
+   ],
+   "pivot": [
+    236.5,
+    233.5
+   ],
+   "anchor": "bloom centre",
+   "scale": 0.45164,
+   "note": "AD 2026-11-11: gold DISC r50 at 1x (r100 art; raw disc r221), stamen tips at about r118 at 1x, inside the petals. fx.js r80 is the centre SLOT; the art disc is r50 by AD call. Superseded: bloom_centre_r80.png (disc r80, sunflower look), bloom_centre_t1scale.png (stamen tips r80)",
+   "width_to_length": 2.365,
+   "key": "alpha < 12 -> 0"
+  },
+  "bloom_petal_a.png": {
+   "size": [
+    274,
+    373
+   ],
+   "pivot": [
+    131.1,
+    372.3
+   ],
+   "anchor": "bloom centre (petal base)",
+   "scale": 0.28882,
+   "note": "base point = lowest opaque point; length base -> tip = 372 px (2x)",
+   "width_to_length": 0.737,
+   "key": "alpha < 12 -> 0"
+  },
+  "bloom_petal_b.png": {
+   "size": [
+    327,
+    425
+   ],
+   "pivot": [
+    155.2,
+    424.3
+   ],
+   "anchor": "bloom centre (petal base)",
+   "scale": 0.33307,
+   "note": "base point = lowest opaque point; length base -> tip = 424 px (2x)",
+   "width_to_length": 0.771,
+   "key": "alpha < 12 -> 0"
+  },
+  "bloom_glow.png": {
+   "size": [
+    1320,
+    1320
+   ],
+   "pivot": [
+    652.6,
+    638.8
+   ],
+   "anchor": "bloom centre",
+   "blend": "additive, RGB on black",
+   "scale": 1.05263,
+   "note": "radius to 2% of peak = 532 px in the raw -> 560 px (2x)"
+  }
+ }
+}

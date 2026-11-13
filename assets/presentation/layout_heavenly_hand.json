@@ -1,0 +1,1224 @@
+{
+ "portrait": {
+  "canvas": [
+   1080,
+   1920
+  ],
+  "plate": "heavenly_hand_portrait_plate.png",
+  "plate_nolamp": "heavenly_hand_portrait_plate_nolamp.png",
+  "lamp": {
+   "lamp_scale": 0.5029,
+   "lamp_rect": [
+    320,
+    -409,
+    754,
+    106
+   ],
+   "lamp_pivot": [
+    537.0,
+    -409.2
+   ],
+   "glow_scale": 0.90756,
+   "glow_rect": [
+    1,
+    100,
+    1080,
+    1301
+   ],
+   "glow_blend": "additive",
+   "glow": "lamp_glow_whitegold",
+   "intensity": 0.25,
+   "runtime_range": [
+    0.25,
+    0.3
+   ],
+   "edge_mask": "140 px smoothstep on the left/right sides (layer mask)"
+  },
+  "table": "parts/table_heavenly_portrait_nolamp.png",
+  "clouds": [
+   {
+    "part": "cloud_large_b",
+    "depth": "back",
+    "parallax": 0.4,
+    "centre": [
+     540,
+     470
+    ],
+    "rect": [
+     -35,
+     299,
+     1115,
+     641
+    ],
+    "scale": 0.6833
+   },
+   {
+    "part": "cloud_large_a",
+    "depth": "mid",
+    "parallax": 0.7,
+    "centre": [
+     90,
+     1110
+    ],
+    "rect": [
+     -230,
+     973,
+     410,
+     1247
+    ],
+    "scale": 0.39628
+   },
+   {
+    "part": "cloud_large_c",
+    "depth": "mid",
+    "parallax": 0.7,
+    "centre": [
+     1000,
+     1080
+    ],
+    "rect": [
+     720,
+     915,
+     1280,
+     1245
+    ],
+    "scale": 0.4055
+   },
+   {
+    "part": "cloud_wisp_1",
+    "depth": "front",
+    "parallax": 1.0,
+    "centre": [
+     150,
+     1860
+    ],
+    "rect": [
+     -30,
+     1775,
+     330,
+     1945
+    ],
+    "scale": 0.64748
+   },
+   {
+    "part": "cloud_wisp_2",
+    "depth": "front",
+    "parallax": 1.0,
+    "centre": [
+     930,
+     1860
+    ],
+    "rect": [
+     750,
+     1774,
+     1110,
+     1946
+    ],
+    "scale": 0.65693
+   }
+  ],
+  "rays": {
+   "part": "parts/ray_burst.png",
+   "blend": "additive",
+   "intensity": 0.55,
+   "centre": [
+    540,
+    720
+   ],
+   "rect": [
+    30,
+    231,
+    1030,
+    1212
+   ],
+   "note": "doc: 8 slow god-rays; the part has 12 rays (optional)"
+  },
+  "tablefan": {
+   "pivot": [
+    540,
+    900
+   ],
+   "R": 420,
+   "pose": "open, 14 ribs (halo; Lead 2026-11-11)",
+   "leaf": "tablefan_leaf_gold",
+   "sprite": "parts/tablefan_gold_pose_open_R420.png",
+   "alt_pose_sprite": "parts/tablefan_gold_pose_x1_R420.png",
+   "sprite_pivot": [
+    420.0,
+    421
+   ],
+   "rect": [
+    120,
+    479,
+    961,
+    1156
+   ],
+   "open_frac": 1.0,
+   "wedge_deg": 172.17,
+   "leaf_scale": 0.49037,
+   "rivet_scale": 0.24513
+  },
+  "emblem": {
+   "centre": [
+    540,
+    720
+   ],
+   "ring_outer": 520,
+   "layout": "\u5929\u548c side by side",
+   "order": "ears (behind) > disc > ring > \u5929 > \u548c",
+   "rect": [
+    145,
+    458,
+    935,
+    983
+   ],
+   "ring_scale": 0.44369,
+   "disc_scale": 0.38262,
+   "ear_scale": 0.29959,
+   "layers": {
+    "ear_left": {
+     "centre": [
+      254.0,
+      761.5
+     ],
+     "drawn_wh": [
+      218,
+      147
+     ],
+     "native_wh": [
+      729,
+      492
+     ],
+     "scale": 0.29959,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      145,
+      688,
+      363,
+      835
+     ],
+     "alpha_bbox": [
+      145,
+      688,
+      363,
+      835
+     ],
+     "layer": 0
+    },
+    "ear_right": {
+     "centre": [
+      826.0,
+      761.5
+     ],
+     "drawn_wh": [
+      218,
+      147
+     ],
+     "native_wh": [
+      728,
+      492
+     ],
+     "scale": 0.29959,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      717,
+      688,
+      935,
+      835
+     ],
+     "alpha_bbox": [
+      717,
+      688,
+      935,
+      835
+     ],
+     "layer": 1
+    },
+    "emblem_disc": {
+     "centre": [
+      539.5,
+      719.5
+     ],
+     "drawn_wh": [
+      423,
+      427
+     ],
+     "native_wh": [
+      1105,
+      1117
+     ],
+     "scale": 0.38262,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      328,
+      506,
+      751,
+      933
+     ],
+     "alpha_bbox": [
+      328,
+      506,
+      751,
+      933
+     ],
+     "layer": 2
+    },
+    "emblem_ring": {
+     "centre": [
+      539.5,
+      720.5
+     ],
+     "drawn_wh": [
+      523,
+      525
+     ],
+     "native_wh": [
+      1178,
+      1183
+     ],
+     "scale": 0.44369,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      278,
+      458,
+      801,
+      983
+     ],
+     "alpha_bbox": [
+      278,
+      458,
+      801,
+      983
+     ],
+     "layer": 3
+    },
+    "emblem_tian": {
+     "centre": [
+      420.5,
+      720.0
+     ],
+     "drawn_wh": [
+      239,
+      208
+     ],
+     "native_wh": [
+      1109,
+      964
+     ],
+     "scale": 0.21551,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      301,
+      616,
+      540,
+      824
+     ],
+     "alpha_bbox": [
+      301,
+      616,
+      540,
+      824
+     ],
+     "layer": 4
+    },
+    "emblem_he": {
+     "centre": [
+      659.5,
+      720.5
+     ],
+     "drawn_wh": [
+      239,
+      233
+     ],
+     "native_wh": [
+      1117,
+      1087
+     ],
+     "scale": 0.21397,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      540,
+      604,
+      779,
+      837
+     ],
+     "alpha_bbox": [
+      540,
+      604,
+      779,
+      837
+     ],
+     "layer": 5
+    }
+   },
+   "group": {
+    "centre": [
+     540,
+     720
+    ],
+    "drawn_wh": [
+     790,
+     525
+    ],
+    "rect": [
+     145,
+     458,
+     935,
+     983
+    ],
+    "rotation_deg": 0,
+    "pivot": "group centre (= centre)",
+    "scale": "each layer as listed; ring outer diameter 520 px",
+    "layer": "ears (0,1) < disc (2) < ring (3) < \u5929 (4) < \u548c (5); group sits above clouds, rays and the Table Fan, below x1",
+    "verify": {
+     "opaque_px": 224650,
+     "exact_match_pct": 100.0,
+     "note": "preview pixels under the opaque emblem equal the emblem pixels (non-matching = x1 glyph / later layers on top)"
+    }
+   },
+   "capture_check": {
+    "capture": "prototype/captures/win_intro_heavenly_v2.png",
+    "orientation": "portrait (1080x1920)",
+    "match_mean_sq_err": 11499.7,
+    "mine_core_rect": [
+     278,
+     458,
+     801,
+     983
+    ],
+    "capture_core_rect": [
+     281,
+     459,
+     801,
+     981
+    ],
+    "centre_mine": [
+     539.5,
+     720.5
+    ],
+    "centre_capture": [
+     541.0,
+     720.0
+    ],
+    "offset_px": [
+     1.5,
+     -0.5
+    ],
+    "size_ratio": 0.995,
+    "size_diff_pct": -0.5,
+    "per_layer": {
+     "emblem_tian": {
+      "err": 1028,
+      "scale_vs_mine": 0.88,
+      "centre_capture": [
+       448.0,
+       719.5
+      ],
+      "centre_mine": [
+       420.5,
+       720.0
+      ],
+      "offset_px": [
+       27.5,
+       -0.5
+      ],
+      "size_diff_pct": -12
+     },
+     "emblem_he": {
+      "err": 1019,
+      "scale_vs_mine": 0.89,
+      "centre_capture": [
+       631.5,
+       720.5
+      ],
+      "centre_mine": [
+       659.5,
+       720.5
+      ],
+      "offset_px": [
+       -28.0,
+       0.0
+      ],
+      "size_diff_pct": -11
+     },
+     "emblem_disc": {
+      "err": 11382,
+      "scale_vs_mine": 0.96,
+      "centre_capture": [
+       539.0,
+       719.0
+      ],
+      "centre_mine": [
+       539.5,
+       719.5
+      ],
+      "offset_px": [
+       -0.5,
+       -0.5
+      ],
+      "size_diff_pct": -4
+     },
+     "emblem_ring": {
+      "err": 11188,
+      "scale_vs_mine": 1.0,
+      "centre_capture": [
+       540.5,
+       718.5
+      ],
+      "centre_mine": [
+       539.5,
+       720.5
+      ],
+      "offset_px": [
+       1.0,
+       -2.0
+      ],
+      "size_diff_pct": 0
+     },
+     "ear_left": {
+      "err": 16123,
+      "scale_vs_mine": 0.99,
+      "centre_capture": [
+       254.0,
+       720.0
+      ],
+      "centre_mine": [
+       254.0,
+       761.5
+      ],
+      "offset_px": [
+       0.0,
+       -41.5
+      ],
+      "size_diff_pct": -1
+     },
+     "ear_right": {
+      "err": 13854,
+      "scale_vs_mine": 0.99,
+      "centre_capture": [
+       827.0,
+       720.0
+      ],
+      "centre_mine": [
+       826.0,
+       761.5
+      ],
+      "offset_px": [
+       1.0,
+       -41.5
+      ],
+      "size_diff_pct": -1
+     }
+    },
+    "summary": "portrait capture. Group (disc+ring+glyphs) centre +1.5,-0.5 px, size -0.5% = matches. Ring: same size, centre within 2 px. Disc: same position (size match unreliable under the glyphs, ~-4%). \u5929 and \u548c: about 11-12% smaller and set ~28 px closer together (centres 448 / 631.5 vs 420.5 / 659.5). Ears: same x and scale, but ~41 px higher (centre y 720 = ring centre, vs 761.5: the capture drops the +0.08*size vertical offset). No rotation anywhere, no missing layer.",
+    "method": "masked RGB SQDIFF template match per layer, scales 0.6-1.2 (group 0.85-1.15), window +-90..160 px around my rect; the glyph and ring matches have low error, the ears/disc are partly covered so their match is approximate"
+   }
+  },
+  "x1": {
+   "glyphs": "fan_red",
+   "text": "x1",
+   "h": 110,
+   "rect": [
+    471,
+    985,
+    609,
+    1095
+   ]
+  },
+  "ten": {
+   "glyphs": "win_gold",
+   "text": "10",
+   "rect": [
+    386,
+    1180,
+    693,
+    1380
+   ]
+  },
+  "title": {
+   "glyphs": "title_gold",
+   "lines": [
+    "HEAVENLY HANDS"
+   ],
+   "cap_h": 69.5,
+   "tracking": 0.04,
+   "rects": [
+    [
+     70,
+     1418,
+     1011,
+     1491
+    ]
+   ],
+   "baselines": [
+    1490
+   ]
+  },
+  "pills": [
+   {
+    "kind": "rising",
+    "rect": [
+     130,
+     1506,
+     950,
+     1650
+    ],
+    "bg": "parts/felt_pill_820x144.png",
+    "icon_tile_h": 112,
+    "value_loop": [
+     "x5",
+     "x7",
+     "x10",
+     "x15"
+    ],
+    "value_rect": [
+     232,
+     1522,
+     315,
+     1634
+    ],
+    "label": "ONLY RISING FANS",
+    "label_rect": [
+     338,
+     1558,
+     848,
+     1598
+    ],
+    "label_cap": 39
+   },
+   {
+    "kind": "retrigger",
+    "rect": [
+     295,
+     1664,
+     785,
+     1808
+    ],
+    "bg": "parts/felt_pill_490x144.png",
+    "icon_tile_h": 112,
+    "arrow_rect": [
+     597,
+     1710,
+     625,
+     1762
+    ],
+    "arrow_style": {
+     "draw": "code",
+     "shape": "chevron >",
+     "stroke_px": 3,
+     "colour": "#f2cf6b",
+     "h_frac_of_pill": 0.3,
+     "w_frac_of_h": 0.5
+    },
+    "result_rect": [
+     639,
+     1700,
+     755,
+     1772
+    ],
+    "content": "3x SYM13 BONUS -> +5"
+   }
+  ],
+  "tap_to_continue": {
+   "y": 1850,
+   "note": "clean space, text added by code"
+  },
+  "exit": {
+   "duration_ms": 800,
+   "beats": [
+    {
+     "t": [
+      0,
+      800
+     ],
+     "what": "clouds roll across from the right, then part to reveal the heavenly board (doc \u00a73b exit)"
+    },
+    {
+     "t": [
+      0,
+      500
+     ],
+     "what": "halo Table Fan closes from the open pose to the x1 pose (rib by rib, reverse of fanOpenFor) while it shrinks and flies on an arc to fanPark",
+     "ease": "easeInOutCubic",
+     "from_": {
+      "pivot": [
+       540,
+       900
+      ],
+      "R": 420,
+      "pose": "open"
+     },
+     "to": {
+      "fanPark": [
+       912,
+       211
+      ],
+      "R": 112,
+      "pose": "x1"
+     },
+     "note": "fanPark is the portrait board coordinate (fx.js LAYOUT.fanPark); use the landscape board fanPark in landscape"
+    },
+    {
+     "t": [
+      0,
+      400
+     ],
+     "what": "emblem shrinks into the Table Fan (fades as it reaches the pivot)"
+    }
+   ]
+  }
+ },
+ "landscape": {
+  "canvas": [
+   1920,
+   1080
+  ],
+  "plate": "heavenly_hand_landscape_plate.png",
+  "plate_nolamp": "heavenly_hand_landscape_plate_nolamp.png",
+  "lamp": {
+   "lamp_scale": 0.55517,
+   "lamp_rect": [
+    720,
+    -449,
+    1199,
+    119
+   ],
+   "lamp_pivot": [
+    959.5,
+    -448.5
+   ],
+   "glow_scale": 1.00188,
+   "glow_rect": [
+    367,
+    113,
+    1558,
+    1438
+   ],
+   "glow_blend": "additive",
+   "glow": "lamp_glow_whitegold",
+   "intensity": 0.25,
+   "runtime_range": [
+    0.25,
+    0.3
+   ],
+   "edge_mask": "140 px smoothstep on the left/right sides (layer mask)"
+  },
+  "table": "parts/table_heavenly_landscape_nolamp.png (from 61 t2, Lead-approved 2026-11-11; t1 fit kept as parts/table_heavenly_landscape_nolamp_t1.png)",
+  "clouds": [
+   {
+    "part": "cloud_large_b",
+    "depth": "back",
+    "parallax": 0.4,
+    "centre": [
+     960,
+     300
+    ],
+    "rect": [
+     335,
+     114,
+     1585,
+     486
+    ],
+    "scale": 0.74272
+   },
+   {
+    "part": "cloud_large_a",
+    "depth": "mid",
+    "parallax": 0.7,
+    "centre": [
+     300,
+     900
+    ],
+    "rect": [
+     -50,
+     750,
+     650,
+     1050
+    ],
+    "scale": 0.43344
+   },
+   {
+    "part": "cloud_large_c",
+    "depth": "mid",
+    "parallax": 0.7,
+    "centre": [
+     1650,
+     900
+    ],
+    "rect": [
+     1350,
+     724,
+     1950,
+     1076
+    ],
+    "scale": 0.43447
+   },
+   {
+    "part": "cloud_wisp_3",
+    "depth": "front",
+    "parallax": 1.0,
+    "centre": [
+     140,
+     1035
+    ],
+    "rect": [
+     -50,
+     964,
+     330,
+     1106
+    ],
+    "scale": 0.62914
+   },
+   {
+    "part": "cloud_wisp_4",
+    "depth": "front",
+    "parallax": 1.0,
+    "centre": [
+     1800,
+     1030
+    ],
+    "rect": [
+     1650,
+     922,
+     1950,
+     1138
+    ],
+    "scale": 0.75949
+   }
+  ],
+  "rays": {
+   "part": "parts/ray_burst.png",
+   "blend": "additive",
+   "intensity": 0.55,
+   "centre": [
+    960,
+    520
+   ],
+   "rect": [
+    491,
+    70,
+    1411,
+    972
+   ],
+   "note": "doc: 8 slow god-rays; the part has 12 rays (optional)"
+  },
+  "tablefan": {
+   "pivot": [
+    960,
+    686
+   ],
+   "R": 386,
+   "pose": "open, 14 ribs (halo; Lead 2026-11-11)",
+   "leaf": "tablefan_leaf_gold",
+   "sprite": "parts/tablefan_gold_pose_open_R386.png",
+   "alt_pose_sprite": "parts/tablefan_gold_pose_x1_R386.png",
+   "sprite_pivot": [
+    386.0,
+    387
+   ],
+   "rect": [
+    574,
+    299,
+    1347,
+    921
+   ],
+   "open_frac": 1.0,
+   "wedge_deg": 172.17,
+   "leaf_scale": 0.45067,
+   "rivet_scale": 0.22529
+  },
+  "emblem": {
+   "centre": [
+    960,
+    520
+   ],
+   "ring_outer": 478,
+   "layout": "\u5929\u548c side by side",
+   "order": "ears (behind) > disc > ring > \u5929 > \u548c",
+   "rect": [
+    596,
+    279,
+    1323,
+    761
+   ],
+   "ring_scale": 0.40785,
+   "disc_scale": 0.35317,
+   "ear_scale": 0.27539,
+   "layers": {
+    "ear_left": {
+     "centre": [
+      696.5,
+      558.5
+     ],
+     "drawn_wh": [
+      201,
+      135
+     ],
+     "native_wh": [
+      729,
+      492
+     ],
+     "scale": 0.27539,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      596,
+      491,
+      797,
+      626
+     ],
+     "alpha_bbox": [
+      596,
+      491,
+      797,
+      626
+     ],
+     "layer": 0
+    },
+    "ear_right": {
+     "centre": [
+      1223.0,
+      558.5
+     ],
+     "drawn_wh": [
+      200,
+      135
+     ],
+     "native_wh": [
+      728,
+      492
+     ],
+     "scale": 0.27539,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      1123,
+      491,
+      1323,
+      626
+     ],
+     "alpha_bbox": [
+      1123,
+      491,
+      1323,
+      626
+     ],
+     "layer": 1
+    },
+    "emblem_disc": {
+     "centre": [
+      960.0,
+      520.0
+     ],
+     "drawn_wh": [
+      390,
+      394
+     ],
+     "native_wh": [
+      1105,
+      1117
+     ],
+     "scale": 0.35317,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      765,
+      323,
+      1155,
+      717
+     ],
+     "alpha_bbox": [
+      765,
+      323,
+      1155,
+      717
+     ],
+     "layer": 2
+    },
+    "emblem_ring": {
+     "centre": [
+      960.0,
+      520.0
+     ],
+     "drawn_wh": [
+      480,
+      482
+     ],
+     "native_wh": [
+      1178,
+      1183
+     ],
+     "scale": 0.40785,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      720,
+      279,
+      1200,
+      761
+     ],
+     "alpha_bbox": [
+      720,
+      279,
+      1200,
+      761
+     ],
+     "layer": 3
+    },
+    "emblem_tian": {
+     "centre": [
+      850.0,
+      519.5
+     ],
+     "drawn_wh": [
+      220,
+      191
+     ],
+     "native_wh": [
+      1109,
+      964
+     ],
+     "scale": 0.19838,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      740,
+      424,
+      960,
+      615
+     ],
+     "alpha_bbox": [
+      740,
+      424,
+      960,
+      615
+     ],
+     "layer": 4
+    },
+    "emblem_he": {
+     "centre": [
+      1070.0,
+      520.0
+     ],
+     "drawn_wh": [
+      220,
+      214
+     ],
+     "native_wh": [
+      1117,
+      1087
+     ],
+     "scale": 0.19696,
+     "rotation_deg": 0,
+     "pivot": "sprite centre",
+     "rect": [
+      960,
+      413,
+      1180,
+      627
+     ],
+     "alpha_bbox": [
+      960,
+      413,
+      1180,
+      627
+     ],
+     "layer": 5
+    }
+   },
+   "group": {
+    "centre": [
+     960,
+     520
+    ],
+    "drawn_wh": [
+     727,
+     482
+    ],
+    "rect": [
+     596,
+     279,
+     1323,
+     761
+    ],
+    "rotation_deg": 0,
+    "pivot": "group centre (= centre)",
+    "scale": "each layer as listed; ring outer diameter 478 px",
+    "layer": "ears (0,1) < disc (2) < ring (3) < \u5929 (4) < \u548c (5); group sits above clouds, rays and the Table Fan, below x1",
+    "verify": {
+     "opaque_px": 189315,
+     "exact_match_pct": 100.0,
+     "note": "preview pixels under the opaque emblem equal the emblem pixels (non-matching = x1 glyph / later layers on top)"
+    }
+   }
+  },
+  "x1": {
+   "glyphs": "fan_red",
+   "text": "x1",
+   "h": 96,
+   "rect": [
+    900,
+    772,
+    1020,
+    868
+   ]
+  },
+  "ten": {
+   "glyphs": "win_gold",
+   "text": "10",
+   "rect": [
+    202,
+    330,
+    479,
+    510
+   ]
+  },
+  "title": {
+   "glyphs": "title_gold",
+   "lines": [
+    "HEAVENLY",
+    "HANDS"
+   ],
+   "cap_h": 58,
+   "tracking": 0.04,
+   "rects": [
+    [
+     105,
+     547,
+     575,
+     606
+    ],
+    [
+     192,
+     630,
+     487,
+     691
+    ]
+   ],
+   "baselines": [
+    606,
+    690
+   ]
+  },
+  "pills": [
+   {
+    "kind": "rising",
+    "rect": [
+     1330,
+     454,
+     1890,
+     586
+    ],
+    "bg": "parts/felt_pill_560x132.png",
+    "icon_tile_h": 102,
+    "value_loop": [
+     "x5",
+     "x7",
+     "x10",
+     "x15"
+    ],
+    "value_rect": [
+     1364,
+     469,
+     1440,
+     571
+    ],
+    "label": "ONLY RISING FANS",
+    "label_rect": [
+     1462,
+     504,
+     1856,
+     536
+    ],
+    "label_cap": 31
+   },
+   {
+    "kind": "retrigger",
+    "rect": [
+     1390,
+     598,
+     1830,
+     730
+    ],
+    "bg": "parts/felt_pill_440x132.png",
+    "icon_tile_h": 102,
+    "arrow_rect": [
+     1662,
+     640,
+     1689,
+     688
+    ],
+    "arrow_style": {
+     "draw": "code",
+     "shape": "chevron >",
+     "stroke_px": 3,
+     "colour": "#f2cf6b",
+     "h_frac_of_pill": 0.3,
+     "w_frac_of_h": 0.5
+    },
+    "result_rect": [
+     1703,
+     631,
+     1808,
+     697
+    ],
+    "content": "3x SYM13 BONUS -> +5"
+   }
+  ],
+  "tap_to_continue": {
+   "y": 1000,
+   "note": "clean space, text added by code"
+  },
+  "exit": {
+   "duration_ms": 800,
+   "beats": [
+    {
+     "t": [
+      0,
+      800
+     ],
+     "what": "clouds roll across from the right, then part to reveal the heavenly board (doc \u00a73b exit)"
+    },
+    {
+     "t": [
+      0,
+      500
+     ],
+     "what": "halo Table Fan closes from the open pose to the x1 pose (rib by rib, reverse of fanOpenFor) while it shrinks and flies on an arc to fanPark",
+     "ease": "easeInOutCubic",
+     "from_": {
+      "pivot": [
+       960,
+       686
+      ],
+      "R": 386,
+      "pose": "open"
+     },
+     "to": {
+      "fanPark": [
+       912,
+       211
+      ],
+      "R": 112,
+      "pose": "x1"
+     },
+     "note": "fanPark is the portrait board coordinate (fx.js LAYOUT.fanPark); use the landscape board fanPark in landscape"
+    },
+    {
+     "t": [
+      0,
+      400
+     ],
+     "what": "emblem shrinks into the Table Fan (fades as it reaches the pivot)"
+    }
+   ]
+  }
+ },
+ "note": "\u00a73b Heavenly Hand intro. Plates: heavenly table (no lamp) + lamp_glow_whitegold additive at 0.25 (runtime 0.25-0.3) with a 140 px side mask + lamp. Everything else is a separate layer (rects below). Landscape table is 61 t2 (Lead-approved; t1 kept as *_t1). Arrows drawn in code."
+}

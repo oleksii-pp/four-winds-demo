@@ -1,0 +1,72 @@
+{
+ "euro": {
+  "w": 217,
+  "h": 251,
+  "baseline_offset": 2
+ },
+ "digit_0": {
+  "w": 214,
+  "h": 251,
+  "baseline_offset": 2
+ },
+ "digit_1": {
+  "w": 182,
+  "h": 250,
+  "baseline_offset": 3
+ },
+ "digit_2": {
+  "w": 202,
+  "h": 254,
+  "baseline_offset": 3
+ },
+ "digit_3": {
+  "w": 204,
+  "h": 257,
+  "baseline_offset": 0
+ },
+ "digit_4": {
+  "w": 236,
+  "h": 259,
+  "baseline_offset": 4
+ },
+ "digit_5": {
+  "w": 206,
+  "h": 259,
+  "baseline_offset": 3
+ },
+ "digit_6": {
+  "w": 219,
+  "h": 265,
+  "baseline_offset": 0
+ },
+ "digit_7": {
+  "w": 210,
+  "h": 258,
+  "baseline_offset": 4
+ },
+ "digit_8": {
+  "w": 229,
+  "h": 269,
+  "baseline_offset": 0
+ },
+ "digit_9": {
+  "w": 215,
+  "h": 253,
+  "baseline_offset": 0
+ },
+ "comma": {
+  "w": 106,
+  "h": 129,
+  "baseline_offset": -1
+ },
+ "dot": {
+  "w": 104,
+  "h": 96,
+  "baseline_offset": 3
+ },
+ "plus": {
+  "w": 210,
+  "h": 218,
+  "baseline_offset": 19
+ }
+}

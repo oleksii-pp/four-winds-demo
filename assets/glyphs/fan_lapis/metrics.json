@@ -1,0 +1,57 @@
+{
+ "x": {
+  "w": 274,
+  "h": 263,
+  "baseline_offset": 33
+ },
+ "digit_0": {
+  "w": 298,
+  "h": 361,
+  "baseline_offset": 1
+ },
+ "digit_1": {
+  "w": 224,
+  "h": 352,
+  "baseline_offset": 6
+ },
+ "digit_2": {
+  "w": 286,
+  "h": 357,
+  "baseline_offset": 6
+ },
+ "digit_3": {
+  "w": 284,
+  "h": 363,
+  "baseline_offset": 0
+ },
+ "digit_4": {
+  "w": 307,
+  "h": 352,
+  "baseline_offset": 7
+ },
+ "digit_5": {
+  "w": 318,
+  "h": 373,
+  "baseline_offset": 1
+ },
+ "digit_6": {
+  "w": 315,
+  "h": 379,
+  "baseline_offset": 1
+ },
+ "digit_7": {
+  "w": 299,
+  "h": 367,
+  "baseline_offset": 8
+ },
+ "digit_8": {
+  "w": 330,
+  "h": 380,
+  "baseline_offset": 0
+ },
+ "digit_9": {
+  "w": 321,
+  "h": 379,
+  "baseline_offset": 1
+ }
+}

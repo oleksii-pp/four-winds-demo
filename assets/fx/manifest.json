@@ -1,0 +1,327 @@
+{
+ "note": "FX art-swap manifest. Names = files on disk (Symbol Artist/AD delivery 2026-11-11). Built by /workspace/tmp/build_fx_manifest.py from fan|kong|bloom parts.json. Missing part => procedural fx.js. See MANIFEST.md.",
+ "parts": {
+  "fan_leaf_seg_1": {
+   "file": "fan/fan_leaf_seg_1.png",
+   "size": [
+    195,
+    461
+   ],
+   "pivot": [
+    96.4,
+    517.5
+   ],
+   "ref_size": 600,
+   "blend": "normal",
+   "ref": "R (R_art 600)"
+  },
+  "fan_rim_seg_1": {
+   "file": "fan/fan_rim_seg_1.png",
+   "size": [
+    189,
+    135
+   ],
+   "pivot": [
+    94.4,
+    615.4
+   ],
+   "ref_size": 600,
+   "blend": "normal",
+   "ref": "R (R_art 600)"
+  },
+  "fan_rib": {
+   "file": "fan/fan_rib.png",
+   "size": [
+    24,
+    582
+   ],
+   "pivot": [
+    12.0,
+    582
+   ],
+   "ref_size": 600,
+   "blend": "normal",
+   "ref": "R (R_art 600)"
+  },
+  "fan_guard": {
+   "file": "fan/fan_guard.png",
+   "size": [
+    55,
+    600
+   ],
+   "pivot": [
+    27.5,
+    600
+   ],
+   "ref_size": 600,
+   "blend": "normal",
+   "ref": "R (R_art 600)"
+  },
+  "fan_rivet_tassel": {
+   "file": "fan/fan_rivet_tassel.png",
+   "size": [
+    151,
+    415
+   ],
+   "pivot": [
+    74.4,
+    50.4
+   ],
+   "ref_size": 600,
+   "blend": "normal",
+   "ref": "R (R_art 600)"
+  },
+  "shard_1": {
+   "file": "kong/shard_1.png",
+   "size": [
+    79,
+    104
+   ],
+   "pivot": [
+    36.1,
+    45.0
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_2": {
+   "file": "kong/shard_2.png",
+   "size": [
+    100,
+    73
+   ],
+   "pivot": [
+    48.0,
+    32.8
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_3": {
+   "file": "kong/shard_3.png",
+   "size": [
+    96,
+    81
+   ],
+   "pivot": [
+    41.7,
+    41.7
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_4": {
+   "file": "kong/shard_4.png",
+   "size": [
+    130,
+    81
+   ],
+   "pivot": [
+    72.2,
+    44.4
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_5": {
+   "file": "kong/shard_5.png",
+   "size": [
+    85,
+    82
+   ],
+   "pivot": [
+    35.7,
+    38.4
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_6": {
+   "file": "kong/shard_6.png",
+   "size": [
+    78,
+    63
+   ],
+   "pivot": [
+    33.1,
+    24.5
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "shard_7": {
+   "file": "kong/shard_7.png",
+   "size": [
+    102,
+    96
+   ],
+   "pivot": [
+    50.8,
+    50.4
+   ],
+   "ref_size": 200,
+   "blend": "normal",
+   "ref": "cell width 134 (art at 200-wide tile scale)"
+  },
+  "dust_puff_1": {
+   "file": "kong/dust_puff_1.png",
+   "size": [
+    206,
+    206
+   ],
+   "pivot": [
+    101.4,
+    104.4
+   ],
+   "ref_size": 200,
+   "blend": "additive",
+   "ref": "cell width 134 (art at 200-wide tile scale) x r/70"
+  },
+  "dust_puff_2": {
+   "file": "kong/dust_puff_2.png",
+   "size": [
+    250,
+    164
+   ],
+   "pivot": [
+    124.8,
+    89.4
+   ],
+   "ref_size": 200,
+   "blend": "additive",
+   "ref": "cell width 134 (art at 200-wide tile scale) x r/70"
+  },
+  "dust_puff_3": {
+   "file": "kong/dust_puff_3.png",
+   "size": [
+    216,
+    178
+   ],
+   "pivot": [
+    114.1,
+    95.7
+   ],
+   "ref_size": 200,
+   "blend": "additive",
+   "ref": "cell width 134 (art at 200-wide tile scale) x r/70"
+  },
+  "bloom_petal_a": {
+   "file": "bloom/bloom_petal_a.png",
+   "size": [
+    274,
+    373
+   ],
+   "pivot": [
+    131.1,
+    372.3
+   ],
+   "ref_size": 372.3,
+   "blend": "normal",
+   "ref": "petal len 186"
+  },
+  "bloom_petal_b": {
+   "file": "bloom/bloom_petal_b.png",
+   "size": [
+    327,
+    425
+   ],
+   "pivot": [
+    155.2,
+    424.3
+   ],
+   "ref_size": 424.3,
+   "blend": "normal",
+   "ref": "petal len 212"
+  },
+  "bloom_centre": {
+   "file": "bloom/bloom_centre.png",
+   "size": [
+    473,
+    467
+   ],
+   "pivot": [
+    236.5,
+    233.5
+   ],
+   "ref_size": 160,
+   "blend": "normal",
+   "ref": "centre slot r80 (2x art; disc r50 at 1x)"
+  },
+  "bloom_glow": {
+   "file": "bloom/bloom_glow.png",
+   "size": [
+    1320,
+    1320
+   ],
+   "pivot": [
+    652.6,
+    638.8
+   ],
+   "ref_size": 532,
+   "blend": "additive",
+   "ref": "glow r280"
+  },
+  "petal_var_1": {
+   "file": "bloom/petal_var_1.png",
+   "size": [
+    49,
+    64
+   ],
+   "pivot": [
+    23.84,
+    26.94
+   ],
+   "ref_size": 64,
+   "blend": "normal",
+   "ref": "falling petal len (size*1.6)"
+  },
+  "petal_var_2": {
+   "file": "bloom/petal_var_2.png",
+   "size": [
+    48,
+    63
+   ],
+   "pivot": [
+    20.54,
+    25.18
+   ],
+   "ref_size": 64,
+   "blend": "normal",
+   "ref": "falling petal len (size*1.6)"
+  },
+  "petal_var_3": {
+   "file": "bloom/petal_var_3.png",
+   "size": [
+    29,
+    63
+   ],
+   "pivot": [
+    16.92,
+    29.11
+   ],
+   "ref_size": 64,
+   "blend": "normal",
+   "ref": "falling petal len (size*1.6)"
+  },
+  "petal_var_4": {
+   "file": "bloom/petal_var_4.png",
+   "size": [
+    44,
+    61
+   ],
+   "pivot": [
+    19.16,
+    23.99
+   ],
+   "ref_size": 64,
+   "blend": "normal",
+   "ref": "falling petal len (size*1.6)"
+  }
+ }
+}

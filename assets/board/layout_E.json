@@ -1,0 +1,206 @@
+{
+ "game": "002_four_winds",
+ "screen": "E",
+ "try_": 2,
+ "date": "2026-11-09",
+ "frame_build": {
+  "measured": {
+   "well": [
+    57,
+    123,
+    968,
+    1417
+   ],
+   "bbox": [
+    0,
+    67,
+    1024,
+    1470
+   ],
+   "rim": [
+    6,
+    68,
+    1018,
+    1469
+   ]
+  },
+  "well_src": [
+   911,
+   1294
+  ],
+  "well_aspect": 0.7040185471406492,
+  "target_aspect": 0.9157667386609071,
+  "method": "9-slice by translation: removed 299 source rows at row 710 (far part of the original moved by -299px, 16px alpha crossfade between the two copies of original pixels; seam mean abs diff 3.75/255). Corners/rims otherwise untouched.",
+  "seam": {
+   "axis": "rows",
+   "at": 710,
+   "inserted": -299,
+   "feather": 16
+  },
+  "well_built": [
+   57,
+   123,
+   968,
+   1118
+  ],
+  "bbox_built": [
+   0,
+   67,
+   1024,
+   1171
+  ],
+  "s_portrait": 0.9308452250274424,
+  "rim_built": [
+   7,
+   68,
+   1021,
+   1170
+  ]
+ },
+ "portrait": {
+  "canvas": [
+   1080,
+   1920
+  ],
+  "k": 1.0,
+  "cell": [
+   134.0,
+   178.0
+  ],
+  "gap": 8.0,
+  "cell_aspect": 0.7528,
+  "grid": [
+   118.0,
+   400,
+   962.0,
+   1322.0
+  ],
+  "well": [
+   116.1,
+   398.5,
+   964.1,
+   1324.7
+  ],
+  "frame_outer": [
+   63.0,
+   346.4,
+   1016.2,
+   1374.0
+  ],
+  "frame_paste": [
+   63,
+   284,
+   953,
+   1151
+  ],
+  "frame_scale": 0.93085,
+  "wall": [
+   100,
+   223,
+   980,
+   353
+  ],
+  "wall_scale": 0.58433,
+  "logo": [
+   332,
+   16,
+   748,
+   211
+  ],
+  "logo_scale": 0.27897,
+  "hud_clear": {
+   "y_from": 1498
+  },
+  "hud_shade": {
+   "file": "hud_shade_portrait.png",
+   "rect": [
+    0,
+    1549,
+    1080,
+    1920
+   ],
+   "max_alpha": 0.45,
+   "radius_full": 150,
+   "radius_zero": 380,
+   "note": "black radial alpha falloff from each bottom corner, composited over the table, under frame/Wall/logo",
+   "patches": [
+    [
+     0,
+     1549,
+     372,
+     1920
+    ],
+    [
+     709,
+     1549,
+     1080,
+     1920
+    ]
+   ]
+  },
+  "note": "GY=400 per Lead (2026-11-09); logo top margin 16px, 12px above the Wall",
+  "clearances": {
+   "frame_bottom": 1374,
+   "total_win_box": [
+    1390,
+    1500
+   ],
+   "hud_y": 1528
+  }
+ },
+ "landscape": {
+  "canvas": [
+   1920,
+   1080
+  ],
+  "k": 0.8,
+  "cell": [
+   107.2,
+   142.4
+  ],
+  "gap": 6.4,
+  "cell_aspect": 0.7528,
+  "grid": [
+   542,
+   221,
+   1217.2,
+   958.6
+  ],
+  "well": [
+   540.4,
+   219.6,
+   1218.8,
+   960.5
+  ],
+  "frame_outer": [
+   498.0,
+   177.9,
+   1260.5,
+   1000.0
+  ],
+  "frame_paste": [
+   498,
+   128,
+   763,
+   921
+  ],
+  "frame_scale": 0.74468,
+  "wall": [
+   528,
+   79,
+   1232,
+   183
+  ],
+  "wall_scale": 0.46746,
+  "logo": [
+   60,
+   338,
+   460,
+   525
+  ],
+  "logo_scale": 0.2681,
+  "hud_clear": {
+   "x_from": 1380
+  }
+ }
+}

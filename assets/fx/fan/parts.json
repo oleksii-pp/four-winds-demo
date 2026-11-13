@@ -1,0 +1,243 @@
+{
+ "geometry": {
+  "R_art": 600,
+  "display": "R300 at 1x, art drawn at 0.5 (2x art)",
+  "segments": 14,
+  "seg_deg": 10.8571,
+  "span_deg": 152,
+  "paper_band": [
+   198.0,
+   504.0
+  ],
+  "rim_band": [
+   504.0,
+   600
+  ],
+  "overlap_deg_each_side": 0.25,
+  "rule": "ribs(v) = round(2 + 12*clamp(ln v / ln 200)); open segments = ribs; segment i (0 = left) bisector at 90 + span/2 - (i+.5)*seg (deg ccw from +x), span = ribs*seg",
+  "animator": {
+   "value": "value glyph height = 0.34R * max(0.55, min(1, segmentsOpen / 5)) (x1 on the 2-rib spike = 0.55); centred at 0.6R above the pivot",
+   "tassel": "fan_rivet_tassel scales with the fan as now, but cap the tassel visible length at about 0.5R. Rivet and tassel are ONE sprite: at R < 200 either draw the procedural fx.js tassel or draw the sprite at 0.55 of the fan scale",
+   "teeth": "the painted rim tooth peaks fall MID-segment and the valleys on the seams (reverse of the fx.js zig-zag): accepted by the AD 2026-11-11",
+   "shear": "the fx.js closing perspective (transform(1, 0, (1-open)*.22, .68+.32*open)) can still be applied on top of the painted parts",
+   "masks": "mask each segment to its wedge (+-5.68 deg) and the leaf also to r >= 0.33R"
+  },
+  "draw_order": "ribs (13 inner) < leaf segments < rim segments < guards < rivet+tassel; Animator masks each segment to its wedge (+-5.68 deg) and the leaf also to r >= 0.33R (the painted pleat runs in to ~0.1R)"
+ },
+ "parts": {
+  "fan_leaf_seg_1.png": {
+   "size": [
+    195,
+    461
+   ],
+   "pivot": [
+    96.4,
+    517.5
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.52513,
+   "painted_angle": 22.0,
+   "r_inner_max": 59.0,
+   "r_outer_min": 511.0,
+   "r_outer_max": 516.0,
+   "covers": true,
+   "source": "src/90_fx_fan_leaf_segments_t1.png piece 1 of 3 (left to right)",
+   "fit": {
+    "sym": 0.22,
+    "edge_resid": 0.72,
+    "tilt": -0.01
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_leaf_seg_2.png": {
+   "size": [
+    196,
+    460
+   ],
+   "pivot": [
+    96.9,
+    518.0
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.52459,
+   "painted_angle": 22.25,
+   "r_inner_max": 61.0,
+   "r_outer_min": 512.0,
+   "r_outer_max": 517.0,
+   "covers": true,
+   "source": "src/90_fx_fan_leaf_segments_t1.png piece 2 of 3 (left to right)",
+   "fit": {
+    "sym": 0.26,
+    "edge_resid": 0.7,
+    "tilt": -0.0
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_leaf_seg_3.png": {
+   "size": [
+    197,
+    463
+   ],
+   "pivot": [
+    97.0,
+    517.1
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.52729,
+   "painted_angle": 22.3,
+   "r_inner_max": 57.0,
+   "r_outer_min": 512.0,
+   "r_outer_max": 516.0,
+   "covers": true,
+   "source": "src/90_fx_fan_leaf_segments_t1.png piece 3 of 3 (left to right)",
+   "fit": {
+    "sym": 0.24,
+    "edge_resid": 0.68,
+    "tilt": 0.0
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_rim_seg_1.png": {
+   "size": [
+    189,
+    135
+   ],
+   "pivot": [
+    94.4,
+    615.4
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.428,
+   "painted_angle": 36.29,
+   "r_inner_centre": 496.0,
+   "r_peak": 614.6,
+   "painted_arc_radius_scaled": 202.1,
+   "note": "painted rim arcs are tighter than the fan (curvature centre ~202 px vs 496); the bottom-centre sits 8 px under the paper",
+   "source": "src/91_fx_fan_rim_segments_t1.png piece 3 of 3 (left to right)",
+   "fit": {
+    "sym": 0.51,
+    "edge_resid": 1.48,
+    "tilt": -0.15
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_rim_seg_2.png": {
+   "size": [
+    189,
+    135
+   ],
+   "pivot": [
+    94.6,
+    615.4
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.428,
+   "painted_angle": 36.22,
+   "r_inner_centre": 496.0,
+   "r_peak": 614.6,
+   "painted_arc_radius_scaled": 202.9,
+   "note": "painted rim arcs are tighter than the fan (curvature centre ~203 px vs 496); the bottom-centre sits 8 px under the paper",
+   "source": "src/91_fx_fan_rim_segments_t1.png piece 1 of 3 (left to right)",
+   "fit": {
+    "sym": 0.57,
+    "edge_resid": 1.6,
+    "tilt": -0.14
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_rim_seg_3.png": {
+   "size": [
+    189,
+    135
+   ],
+   "pivot": [
+    94.4,
+    615.4
+   ],
+   "anchor": "fan rivet (arc centre, below the image)",
+   "scale": 0.428,
+   "painted_angle": 36.2,
+   "r_inner_centre": 496.0,
+   "r_peak": 614.6,
+   "painted_arc_radius_scaled": 202.8,
+   "note": "painted rim arcs are tighter than the fan (curvature centre ~203 px vs 496); the bottom-centre sits 8 px under the paper",
+   "source": "src/91_fx_fan_rim_segments_t1.png piece 2 of 3 (left to right)",
+   "fit": {
+    "sym": 0.56,
+    "edge_resid": 1.61,
+    "tilt": -0.15
+   },
+   "key": "alpha < 12 -> 0, >= 250 -> 255 (clears the faint haze)"
+  },
+  "fan_rib.png": {
+   "size": [
+    24,
+    582
+   ],
+   "pivot": [
+    12.0,
+    582
+   ],
+   "anchor": "fan rivet",
+   "scale": 0.60062,
+   "source": "screen/03_presentation/parts/tablefan_rib.png (kept part, uniform LANCZOS)",
+   "note": "length 0.97R"
+  },
+  "fan_rib_b.png": {
+   "size": [
+    25,
+    582
+   ],
+   "pivot": [
+    12.5,
+    582
+   ],
+   "anchor": "fan rivet",
+   "scale": 0.60062,
+   "source": "screen/03_presentation/parts/tablefan_rib_b.png (kept part, uniform LANCZOS)",
+   "note": "length 0.97R"
+  },
+  "fan_guard.png": {
+   "size": [
+    55,
+    600
+   ],
+   "pivot": [
+    27.5,
+    600
+   ],
+   "anchor": "fan rivet",
+   "scale": 0.6192,
+   "source": "screen/03_presentation/parts/tablefan_guard.png (kept part, uniform LANCZOS)",
+   "note": "length R"
+  },
+  "fan_guard_b.png": {
+   "size": [
+    55,
+    600
+   ],
+   "pivot": [
+    27.5,
+    600
+   ],
+   "anchor": "fan rivet",
+   "scale": 0.6192,
+   "source": "screen/03_presentation/parts/tablefan_guard_b.png (kept part, uniform LANCZOS)",
+   "note": "length R"
+  },
+  "fan_rivet_tassel.png": {
+   "size": [
+    151,
+    415
+   ],
+   "pivot": [
+    74.4,
+    50.4
+   ],
+   "anchor": "fan rivet",
+   "scale": 0.35019,
+   "source": "screen/03_presentation/parts/tablefan_rivet_tassel.png (kept part, uniform LANCZOS)",
+   "note": "rivet diameter = 1.9x guard width (as the approved Table Fan poses); tassel swing = rotate the sprite about the rivet"
+  }
+ }
+}

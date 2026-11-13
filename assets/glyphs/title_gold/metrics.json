@@ -1,0 +1,142 @@
+{
+ "A": {
+  "w": 295,
+  "h": 268,
+  "baseline_offset": 1
+ },
+ "B": {
+  "w": 247,
+  "h": 272,
+  "baseline_offset": 0
+ },
+ "C": {
+  "w": 252,
+  "h": 281,
+  "baseline_offset": -7
+ },
+ "D": {
+  "w": 267,
+  "h": 271,
+  "baseline_offset": 0
+ },
+ "E": {
+  "w": 241,
+  "h": 269,
+  "baseline_offset": 1
+ },
+ "F": {
+  "w": 226,
+  "h": 273,
+  "baseline_offset": 0
+ },
+ "G": {
+  "w": 281,
+  "h": 278,
+  "baseline_offset": -5
+ },
+ "H": {
+  "w": 290,
+  "h": 274,
+  "baseline_offset": 0
+ },
+ "I": {
+  "w": 143,
+  "h": 274,
+  "baseline_offset": 0
+ },
+ "J": {
+  "w": 200,
+  "h": 279,
+  "baseline_offset": -6
+ },
+ "K": {
+  "w": 272,
+  "h": 273,
+  "baseline_offset": 0
+ },
+ "L": {
+  "w": 218,
+  "h": 272,
+  "baseline_offset": 1
+ },
+ "M": {
+  "w": 338,
+  "h": 272,
+  "baseline_offset": 1
+ },
+ "N": {
+  "w": 271,
+  "h": 272,
+  "baseline_offset": 1
+ },
+ "O": {
+  "w": 284,
+  "h": 282,
+  "baseline_offset": -8
+ },
+ "P": {
+  "w": 237,
+  "h": 271,
+  "baseline_offset": 0
+ },
+ "Q": {
+  "w": 302,
+  "h": 313,
+  "baseline_offset": -37
+ },
+ "R": {
+  "w": 274,
+  "h": 272,
+  "baseline_offset": 0
+ },
+ "S": {
+  "w": 216,
+  "h": 285,
+  "baseline_offset": -4
+ },
+ "T": {
+  "w": 248,
+  "h": 275,
+  "baseline_offset": 0
+ },
+ "U": {
+  "w": 285,
+  "h": 283,
+  "baseline_offset": -5
+ },
+ "V": {
+  "w": 307,
+  "h": 276,
+  "baseline_offset": 2
+ },
+ "W": {
+  "w": 368,
+  "h": 271,
+  "baseline_offset": 0
+ },
+ "X": {
+  "w": 286,
+  "h": 270,
+  "baseline_offset": 0
+ },
+ "Y": {
+  "w": 274,
+  "h": 270,
+  "baseline_offset": 0
+ },
+ "Z": {
+  "w": 254,
+  "h": 270,
+  "baseline_offset": 0
+ },
+ "plus": {
+  "w": 236,
+  "h": 234,
+  "baseline_offset": 18
+ },
+ "space": {
+  "w": 80,
+  "h": 271,
+  "baseline_offset": 0
+ }
+}

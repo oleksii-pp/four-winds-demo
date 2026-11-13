@@ -1,0 +1,72 @@
+{
+ "digit_0": {
+  "w": 282,
+  "h": 374,
+  "baseline_offset": 3
+ },
+ "digit_1": {
+  "w": 218,
+  "h": 362,
+  "baseline_offset": 11
+ },
+ "digit_2": {
+  "w": 257,
+  "h": 367,
+  "baseline_offset": 12
+ },
+ "digit_3": {
+  "w": 255,
+  "h": 375,
+  "baseline_offset": 4
+ },
+ "digit_4": {
+  "w": 284,
+  "h": 364,
+  "baseline_offset": 11
+ },
+ "digit_5": {
+  "w": 273,
+  "h": 374,
+  "baseline_offset": 0
+ },
+ "digit_6": {
+  "w": 305,
+  "h": 392,
+  "baseline_offset": 1
+ },
+ "digit_7": {
+  "w": 292,
+  "h": 382,
+  "baseline_offset": 9
+ },
+ "digit_8": {
+  "w": 311,
+  "h": 394,
+  "baseline_offset": 0
+ },
+ "digit_9": {
+  "w": 308,
+  "h": 394,
+  "baseline_offset": 0
+ },
+ "dot": {
+  "w": 183,
+  "h": 185,
+  "baseline_offset": 13
+ },
+ "comma": {
+  "w": 149,
+  "h": 187,
+  "baseline_offset": -24
+ },
+ "k": {
+  "w": 341,
+  "h": 369,
+  "baseline_offset": 6
+ },
+ "m": {
+  "w": 429,
+  "h": 368,
+  "baseline_offset": 7
+ }
+}
